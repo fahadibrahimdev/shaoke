@@ -1,0 +1,40 @@
+@tailwind base;
+body{
+    @apply font-dm-sans
+}
+h1, h2, h3, h4, h5, h6{
+    @apply font-public-sans text-[#272D4B] capitalize
+}
+h1{
+   @apply text-4xl sm:text-5xl md:text-6xl leading-[46px] sm:leading-[56px] md:leading-[68px] tracking-[-1.5px] font-bold
+}
+h2{
+    @apply text-3xl sm:text-4xl md:text-5xl lg:text-[56px] leading-[42px] md:leading-[54px] lg:leading-[60px] font-bold tracking-[-1.4px]
+}
+h3{
+    @apply text-xl sm:text-2xl md:text-[24px] leading-[26px] font-bold
+}
+h4{
+    @apply text-lg md:text-xl leading-[26px] font-bold opacity-70
+}
+p, ul li{
+    @apply text-base md:text-lg xl:text-xl text-[#707376] leading-[26px]
+}
+label{
+    @apply text-sm uppercase text-[#272D4B]
+}
+form label{
+    @apply text-lg font-semibold capitalize block pb-2.5 md:pb-3.5
+}
+input, textarea{
+    @apply bg-[#F5F5F5] border border-[#DBDBDB] outline-0 rounded-[5px] py-4 px-3.5 placeholder:text-[#707376] w-full focus:border-primary focus:ring-primary shadow-none
+}
+
+
+@tailwind components;
+
+@tailwind utilities;
+
+.blog-card .blog-thumbnail img{
+    @apply w-full h-full object-cover
+}

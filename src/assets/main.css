@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'DM Sans';
+    src: url("/fonts/DMSans-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url("/fonts/PublicSans-Medium.ttf") format('truetype');
+}
